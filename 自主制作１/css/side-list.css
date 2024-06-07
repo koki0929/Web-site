@@ -1,0 +1,15 @@
+.side-list{
+  position:fixed;
+    z-index: 990;/*ボタンを最前面に*/
+  top: 70px;
+    width: 120px;
+    height:100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .side-list h2{
+    margin: 30px auto;
+  }
+
