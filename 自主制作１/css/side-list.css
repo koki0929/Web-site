@@ -1,6 +1,7 @@
+
 .side-list{
+  position: sticky;
   top: 70px;
-  position:fixed;
     z-index: 990;/*ボタンを最前面に*/
     width: 120px;
     height:100vh;
@@ -18,3 +19,6 @@
     margin: 20px auto;
   }
 
+.main{
+  height: 300vh;
+}
