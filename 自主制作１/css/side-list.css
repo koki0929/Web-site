@@ -1,15 +1,20 @@
 .side-list{
+  top: 70px;
   position:fixed;
     z-index: 990;/*ボタンを最前面に*/
-  top: 70px;
     width: 120px;
     height:100vh;
-    background-color: #ffffff;
+    background-color:#ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     }
+    .side-list-area{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 70px;
+    }
     .side-list h2{
-    margin: 30px auto;
+    margin: 20px auto;
   }
 
