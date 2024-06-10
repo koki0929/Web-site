@@ -34,9 +34,10 @@ img{
   background-color: #ffffff;
 }
 .header-logo{
+  display: block;
   width: 170px;
 background-color: #ffffff;
-margin-left: 100px;
+margin: 0 auto;
 }
 .site-menu ul{
   display: flex;
