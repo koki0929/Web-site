@@ -137,15 +137,25 @@ margin: 0 75px;
   border-radius: 100px 0 0 100px;
   padding-left: -120px;
 }
-.item-list{
+.grid-list {
   width: 80%;
-  background: rgba(238, 130, 238, 0.384);
-  margin: 0 auto;
+  height: 100%;
   display: grid;
-  grid-template-columns: repeat(4 240px);
+  grid-template-columns: repeat(3,100%);
+  gap: 30px; 
+  background: rgba(37, 37, 46, 0.459);
 }
-.item-list li{
-  width: 120px;
-  height: 120px;
+.grid-list li{
   background: var(--fff);
+  text-align: center;
+  border-radius: 30px;
+  background: white;
+  width: 30px;
+  height: 30px;
 }
+/* .grid-list h2{
+  background: transparent;
+}
+.grid-list p{
+  background: transparent;
+} */
