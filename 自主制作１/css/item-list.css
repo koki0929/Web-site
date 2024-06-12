@@ -103,7 +103,7 @@ margin: 0 75px;
 }
 
 .container{
-  height: 300vh;
+  height: 100%;
 }
 
 .container{
@@ -137,14 +137,16 @@ margin: 0 75px;
   border-radius: 100px 0 0 100px;
   padding-left: -120px;
 }
-.grid-list {
-  width: 80%;
-  height: 100%;
+.grid-list ul{
+  align-items: center;
+  width: 100%;
+  margin-left: 50px;
   display: grid;
-  grid-template-columns: repeat(3,100%);
-  gap: 30px; 
-  background: rgba(37, 37, 46, 0.459);
+  grid-template-columns: repeat(auto-fit, 250px);
+  background: rgba(92, 92, 228, 0.26);
 }
 .grid-list li{
-  background: var(--fff);
+  background: #28273352;
+  width: 200px;
+  height: 200px;
 }
