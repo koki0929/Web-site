@@ -1,3 +1,8 @@
+:root{
+  --fff: #fff;
+  --333: #333;
+  --ad : #adadad;
+}
 #hb-menu{
   /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
   position:fixed;
@@ -7,7 +12,7 @@ top:-120%;
   left:0;
 width:100%;
   height: 100vh;/*ナビの高さ*/
-background: #adadad;;
+background: var(--ad);
   /*動き*/
 transition: all 0.6s;
 
@@ -47,7 +52,7 @@ list-style: none;
 }
 
 #hb-menu li a{
-color: #333;
+color: var(--333);
 text-decoration: none;
 padding:10px;
 display: block;
@@ -65,7 +70,7 @@ right: 10px;
 cursor: pointer;
   width: 50px;
   height:50px;
-  background-color: #adadad;
+  background-color:var(--ad);
   border-radius: 30%;
 }
 
@@ -81,7 +86,7 @@ cursor: pointer;
   left: 14px;
   height: 3px;
   border-radius: 2px;
-background: #fff;
+background: var(--fff);
   width: 45%;
 }
 
@@ -119,7 +124,7 @@ transform: rotateY(-360deg);
   left: 18px;
   transform: translateY(6px) rotate(-135deg);
   width: 30%;
-  background-color: #333;
+  background-color: var(--333);
 }
 
 .openbtn.active span:nth-of-type(2) {
@@ -131,5 +136,5 @@ opacity: 0;
   left: 18px;
   transform: translateY(-6px) rotate(135deg);
   width: 30%;
-  background-color: #333;
+  background-color: var(--333);
 }

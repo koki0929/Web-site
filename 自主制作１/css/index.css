@@ -1,0 +1,146 @@
+:root{
+  --fff: #fff;
+  --333: #333;
+  --ad : #adadad;
+}
+.slider {
+  position:relative;
+  margin: 0 auto;
+  margin: 60px auto;
+  width: 130vh;
+}
+.slider-item01 {
+    background:#bd5959;
+}
+.slider-item02 {
+    background:#200e42;
+}
+.slider-item03 {
+    background:#45852b;
+}
+.slider-item {
+  border-radius: 80px ;
+    width: 100%;
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+}
+/*矢印の設定*/
+.slick-prev, 
+.slick-next {
+    position: absolute;
+	z-index: 3;
+    top: 200px;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    border-top: 2px solid #fff;/*矢印の色*/
+    border-right: 2px solid #fff;/*矢印の色*/
+    height: 25px;
+    width: 25px;
+}
+.slick-prev {/*戻る矢印の位置と形状*/
+    left:2.5%;
+    transform: rotate(-135deg);
+}
+.slick-next {/*次へ矢印の位置と形状*/
+    right:2.5%;
+    transform: rotate(45deg);
+}
+.slider::after{
+  content: '';
+  display: block;
+  width: 80%;
+  height: 3px;
+  background: var(--333);
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.popular{
+  width: 100%;
+}
+.title{
+  margin: 120px 0 200px 0;
+  color: var(--333);
+  font-size: 32px;
+  text-align: center;
+}
+.popular-list ul{
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+.popular-list li{
+  width: 30%;
+  height: 100%;
+  background: var(--fff);
+  text-align: center;
+}
+.popular-list h2{
+  background: transparent;
+  margin-top: 200px;
+}
+.popular-list p{
+  background: transparent;
+  margin-top: 20px;
+}
+.popular-image{
+  display: block;
+  width: 80%;
+  height: 400px;
+  background: #7c3535;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.popular-list::after{
+  content: '';
+  display: block;
+  width: 60%;
+  height: 3px;
+  background: var(--333);
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.men{
+  width: 100%;
+  height: 300vh;
+}
+.men-area{
+  display: flex;
+  justify-content: space-between;
+}
+.men-logo{
+  position: sticky;
+  width: 50%;
+  height: 100vh;
+  background: #000;
+}
+.item-list {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  gap: 30px; 
+}
+.item-list li{
+  height: 300px;
+  background: var(--fff);
+  text-align: center;
+  border-radius: 30px;
+}
+.item-list h2{
+  background: transparent;
+}
+.item-list p{
+  background: transparent;
+}
+
+.men::after{
+  content: '';
+  display: block;
+  width: 60%;
+  height: 3px;
+  background: var(--333);
+  margin: 0 auto;
+  margin-top: 60px;
+}
