@@ -138,22 +138,14 @@ margin: 0 75px;
   padding-left: -120px;
 }
 .item-list{
+  width: 80%;
+  background: rgba(238, 130, 238, 0.384);
   margin: 0 auto;
-  width: 80vh;
   display: grid;
-  grid-template-columns: repeat(auto,50%);
-  gap: 30px; 
-  background: var(--fff);
-}
-.item-list ul{
-  width: 80vh;
-  display: flex;
-  justify-content: space-around;
-  height: 50vh;
+  grid-template-columns: repeat(4 240px);
 }
 .item-list li{
-  width: 30%;
-  height: 100%;
+  width: 120px;
+  height: 120px;
   background: var(--fff);
-  text-align: center;
 }
