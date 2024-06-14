@@ -130,9 +130,12 @@
   border-radius: 30px;
 }
 .item-list h2{
+  margin-top: 70%;
   background: transparent;
 }
 .item-list p{
+  margin-top: 10px;
+  margin-bottom: 10px;
   background: transparent;
 }
 .all-item{
@@ -204,9 +207,12 @@
   text-align: center;
 }
 .unisex-item-list h2{
+  margin-top: 40%;
   background: transparent;
 }
 .unisex-item-list p{
+  margin-top: 10px;
+  margin-bottom: 10px;
   background: transparent;
 }
 .unisex-all-item{

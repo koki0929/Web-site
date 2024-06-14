@@ -173,13 +173,13 @@ margin: 0 auto;
   margin-left: 120px;
   background-image: linear-gradient(to bottom,#fff,#282733);
   margin: 0 auto;
+  font-weight: bold;
 }
 .footer-inner{
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background: #7977f3; */
 }
 .footer-logo{
   width: 200px;
@@ -194,7 +194,6 @@ margin: 0 auto;
   margin: 0 auto;
 }
 .footer-list ul{
-  /* background: #a8a8a8; */
   margin: 0 40px;
   height: 100%;
   margin-left: 120px;
