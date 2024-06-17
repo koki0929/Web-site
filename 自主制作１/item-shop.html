@@ -23,7 +23,7 @@
   
   <header class="header">
     <div class="header-inner">
-      <a href="" class="header-logo">
+      <a href="./index.html" class="header-logo">
         <img src="./image/logo/MASYU-logo.svg" alt="logo">
       </a>
       <div class="item-category">
@@ -34,6 +34,12 @@
         </ul>
       </div>
       <div class="header-site-menu">
+        <div id="search-wrap">
+          <form role="search" method="get" action="">
+          <input type="text" value="" name="" id="search-text">
+          </form>
+        </div>
+
         <nav class="site-menu">
           <ul>
             <li><a href="insta-url"><img src="./image/logo/insta.svg" alt=""></a></li>
@@ -133,8 +139,10 @@
     </div>
     <div class="cart-area">
       <div class="price-area">
-        <h3>\9999</h3>
-        <p>（税込み）</p>
+        <ul>
+          <li><h3>\9999</h3></li>
+          <li><p>（税込み）</p></li>
+        </ul>
       </div>
       <div class="size-area">
         <ul class="size">
@@ -143,12 +151,22 @@
           <li>L</li>
           <li>XL</li>
         </ul>
-        <ul class="add-cart">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+      </div>
+      <div class="shop-cart-area">
+        <ul class="watch-list">
+          <li><img src="../自主制作１/image/logo/image 6.svg" alt=""></li>
+          <li><img src="../自主制作１/image/logo/image 6.svg" alt=""></li>
+          <li><img src="../自主制作１/image/logo/image 6.svg" alt=""></li>
+          <li><img src="../自主制作１/image/logo/image 6.svg" alt=""></li>
         </ul>
+        <div class="add-cart-area">
+          <ul class="add-cart-list">
+            <li>Add Cart</li>
+            <li>Add Cart</li>
+            <li>Add Cart</li>
+            <li>Add Cart</li>
+          </ul>
+        </div>
       </div>
     </div>
   </main>
@@ -185,3 +203,5 @@
 <script src="js/header.js"></script>
 <!-- サイドリスト -->
 <script src="js/side-list.js"></script>
+<!-- ウォッチリスト -->
+<script src="watch-list.js"></script>
