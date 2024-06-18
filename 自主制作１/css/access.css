@@ -1,0 +1,16 @@
+.access{
+  text-align: center;
+  background: white;
+  width: 70%;
+  margin: 60px auto;
+  border-radius: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.map{
+  border-radius: 30px;
+}
+h3{
+  font-size: 24px;
+  margin: 60px auto;
+}

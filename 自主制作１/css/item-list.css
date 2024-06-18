@@ -17,6 +17,7 @@ body{
   color: var(--font);
   line-height: 1;
   background-color: var(--fff);
+  font-weight: bold;
 }
 img{
   max-width: 100%;
@@ -44,6 +45,38 @@ width: 150px;
 background-color: var(--fff);
 margin: 0 75px;
 }
+.header-site-menu{
+  display: flex;
+}
+#search-wrap {
+  background: transparent;
+  margin-right: 30px;
+}
+
+#search-text{
+  margin-left: 30px;
+  margin-top: 7px;
+-webkit-appearance:none;
+width: 30px;
+height: 30px;
+border: none;
+background:transparent url("../image/logo/search.svg") no-repeat 6px center;
+background-size: 24px 24px;
+transition: all 0.5s;
+outline: none;
+cursor: pointer;
+}
+
+
+#search-text:focus {
+width: 250px;
+padding: 20px 0 20px 20px;
+box-shadow: 0 2px rgba(6,0,1,.26);
+background: var(--333);
+color: var(--fff);
+border-radius: 30px;
+}
+
 .item-category ul{
   width: 400px;
   display: flex;
@@ -54,6 +87,10 @@ margin: 0 75px;
   font-weight: bold;
   font-size: 24px;
 }
+.item-category li:hover{
+  color: var(--ad);
+}
+
 .site-menu ul{
   display: flex;
   width: 200px;
@@ -100,6 +137,9 @@ margin: 0 75px;
 }
 .footer-list li{
   margin: 30px 0;
+  color: var(--fff);
+}
+.footer-list li:hover{
   color: var(--333);
 }
 
@@ -130,6 +170,11 @@ margin: 0 75px;
 .side-list p{
   margin-left: 40px;
   line-height: 2;
+  font-size: 14px;
+}
+.side-list p:hover,
+.side-list h4:hover{
+  color: var(--ad);
 }
 .main-area{
   top: 70px;

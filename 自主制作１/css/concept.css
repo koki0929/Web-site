@@ -1,0 +1,49 @@
+
+.concept-area{
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  margin: 30px auto;
+}
+.concept-area2{
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 0 auto;
+  background: white;
+  border-radius: 50px;
+  margin-top: 60px;
+}
+.concept-logo{
+  width: 300px;
+  height: 200px;
+  background: #d17171;
+  margin-right: 30px;
+}
+.concept-logo2{
+  width: 300px;
+  height: 200px;
+  background: #481cad;
+  margin-left: 30px;
+}
+.concept-text{
+  width: 50%;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 18px;
+}
+.concept-text2{
+  width: 50%;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
