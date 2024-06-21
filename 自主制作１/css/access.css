@@ -1,16 +1,28 @@
+.header{
+  position: unset;
+}
+.main-area{
+  height:calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+}
+.side-list{
+  height: calc(100vh - 70px);
+}
 .access{
+  margin: auto;
   text-align: center;
   background: white;
-  width: 70%;
-  margin: 60px auto;
+  width: 40%;
+  height: 70%;
   border-radius: 60px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 .map{
   border-radius: 30px;
+  width: 80%;
+  height: 80%;
 }
 h3{
   font-size: 24px;
-  margin: 60px auto;
+  margin: 10px;
 }

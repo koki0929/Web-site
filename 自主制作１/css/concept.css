@@ -24,13 +24,13 @@
 .concept-logo{
   width: 300px;
   height: 200px;
-  background: #d17171;
   margin-right: 30px;
+  display: flex;
+  align-items: center;
 }
 .concept-logo2{
   width: 300px;
   height: 200px;
-  background: #481cad;
   margin-left: 30px;
 }
 .concept-text{
