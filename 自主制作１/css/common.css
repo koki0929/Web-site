@@ -285,7 +285,7 @@ margin: 0 auto;
   margin: 0 auto;
   padding: 20px;
   background-color: var(--fff);
-  box-shadow: 0 0 0 15px var(--ad);
+  box-shadow: 0 0 0 15px  var(--ad);
 }
 .footer-list{
   display: flex;
