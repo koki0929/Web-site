@@ -5,7 +5,6 @@
   -moz-border-radius:6px;
   border-radius:6px;
   background-color:#FAFAFA;
-  
 }
 .head {
   -webkit-border-radius:6px 6px 0px 0px;
@@ -96,11 +95,25 @@ label.error {
 }
 
 .header{
-  position: unset;
 }
+.header-inner{
+  position: absolute;
+  z-index: 1;
+}
+.header-logo{
+width: 170px;
+background-color: var(--fff);
+margin: 0 auto;
+padding-bottom: 30px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 24px;
+}
+
 .main-area{
-  height:calc(100vh - 70px);
+  margin-top: 70px;
   display: flex;
+height: 100vh;
   justify-content: center;
 }
 .side-list{
@@ -110,4 +123,7 @@ label.error {
   width: 40%;
   height: 70%;
   margin-top: 60px;
+}
+#footer{
+  margin-top: 70px;
 }
