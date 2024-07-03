@@ -342,3 +342,17 @@ margin-right: 120px;
   margin-bottom: 60px;
 }
 
+@media screen  and (max-width: 800px) {
+  .main-area{
+    padding: 0;
+    margin-left: 120px;
+    background: var(--fff);
+  }
+  .slider ul{
+    width: 50px;
+  }
+  .side-list{
+    width: 120px;
+    background-color:var(--333);
+  }
+}
